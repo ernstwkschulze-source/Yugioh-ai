@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Engine artifacts (fetched/built locally, not committed)
+third_party/
+engine_build/
+*.so
+*.dll
+*.dylib
+cards.cdb
+script/
+
+# RL artifacts
+runs/
+checkpoints/
+*.pt
+*.npz
+replay/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store

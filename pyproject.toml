@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yugioh-ai"
+version = "0.1.0"
+description = "An AlphaZero-style self-play agent for Yu-Gi-Oh, aiming to become the Stockfish of the TCG."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yugioh-ai contributors" }]
+keywords = ["yugioh", "reinforcement-learning", "alphazero", "mcts", "self-play", "ocgcore"]
+
+# Core runtime deps. The project is designed to RUN with numpy alone (mock
+# backend + numpy MCTS evaluator). Torch is optional and only needed to train
+# / use the neural network. See requirements-rl.txt.
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+rl = ["torch>=2.0"]
+gym = ["gymnasium>=0.29"]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+yugioh-ai = "yugioh_ai.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["yugioh_ai*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

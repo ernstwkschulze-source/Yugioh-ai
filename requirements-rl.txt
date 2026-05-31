@@ -1,0 +1,5 @@
+# Extra requirements for neural-network training (AlphaZero policy/value net).
+-r requirements.txt
+torch>=2.0
+# Optional: standardized RL env API
+gymnasium>=0.29

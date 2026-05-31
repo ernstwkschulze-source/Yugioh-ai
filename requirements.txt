@@ -1,0 +1,2 @@
+# Minimal requirements to run the mock backend, env, MCTS and self-play loop.
+numpy>=1.24
