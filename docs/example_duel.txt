@@ -1,0 +1,95 @@
+############################################################
+#  DUEL TRANSCRIPT
+#  Player 0 = AI(thinks 80)
+#  Player 1 = Random bot
+#  (A 'card' here is a monster with an Attack value 1-4.
+#   Both start at 20 Life Points. First player can't attack turn 1.)
+############################################################
+
+Player 0 (AI(thinks 80)):
+   Deck draw order (ATK):  4 4 3 1 1 2 2 3 2 2 1 3 3 1 1 2 2 4 3 2 2 3 3 1 3
+   Opening hand:           [4 ATK, 1 ATK, 1 ATK, 1 ATK, 1 ATK]
+
+Player 1 (Random bot):
+   Deck draw order (ATK):  3 3 3 4 2 4 1 1 4 4 2 1 2 1 4 3 3 1 2 1 4 2 1 2 3
+   Opening hand:           [4 ATK, 4 ATK, 4 ATK, 2 ATK, 2 ATK]
+
+========== Turn 1 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: (empty)    |    P1: (empty)
+   P0 hand:       [4 ATK, 1 ATK, 1 ATK, 1 ATK, 1 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 4-ATK monster.   P0 board: [4 ATK]
+   P0 ends the turn.
+
+========== Turn 2 — Random bot (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK]    |    P1: (empty)
+   P1 hand:       [4 ATK, 4 ATK, 4 ATK, 2 ATK, 2 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 2-ATK monster.   P1 board: [2 ATK]
+   P1 ends the turn.  P0 draws: 4 ATK.
+
+========== Turn 3 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK]    |    P1: [2 ATK]
+   P0 hand:       [1 ATK, 1 ATK, 1 ATK, 1 ATK, 4 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 1-ATK monster.   P0 board: [4 ATK, 1 ATK]
+   P0 ends the turn.  P1 draws: 3 ATK.
+
+========== Turn 4 — Random bot (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK, 1 ATK]    |    P1: [2 ATK]
+   P1 hand:       [4 ATK, 4 ATK, 4 ATK, 2 ATK, 3 ATK]
+   ----------------------------------------
+   P1 ends the turn.  P0 draws: 4 ATK.
+
+========== Turn 5 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK, 1 ATK]    |    P1: [2 ATK]
+   P0 hand:       [1 ATK, 1 ATK, 1 ATK, 4 ATK, 4 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 4-ATK monster.   P0 board: [4 ATK, 1 ATK, 4 ATK]
+   P0 ends the turn.
+
+========== Turn 6 — Random bot (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK, 1 ATK, 4 ATK]    |    P1: [2 ATK]
+   P1 hand:       [4 ATK, 4 ATK, 4 ATK, 2 ATK, 3 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 2-ATK monster.   P1 board: [2 ATK, 2 ATK]
+   P1 ends the turn.  P0 draws: 3 ATK.
+
+========== Turn 7 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 Random bot = 20
+   Board:         P0: [4 ATK, 1 ATK, 4 ATK]    |    P1: [2 ATK, 2 ATK]
+   P0 hand:       [1 ATK, 1 ATK, 1 ATK, 4 ATK, 3 ATK]
+   ----------------------------------------
+   P0's 1-ATK crashes into the bigger 2-ATK monster -> attacker destroyed, P0 takes 1.   P0 LP: 20 -> 19
+   P0 Normal Summons a 4-ATK monster.   P0 board: [4 ATK, 4 ATK, 4 ATK]
+   P0's 4-ATK attacks the 2-ATK monster -> defender destroyed, P1 takes 2.   P1 LP: 20 -> 18
+   P0's 4-ATK attacks the 2-ATK monster -> defender destroyed, P1 takes 2.   P1 LP: 18 -> 16
+   P0's 4-ATK monster attacks DIRECTLY for 4!   P1 LP: 16 -> 12
+   P0 ends the turn.  P1 draws: 3 ATK.
+
+========== Turn 8 — Random bot (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 19    |    P1 Random bot = 12
+   Board:         P0: [4 ATK, 4 ATK, 4 ATK]    |    P1: (empty)
+   P1 hand:       [4 ATK, 4 ATK, 4 ATK, 3 ATK, 3 ATK]
+   ----------------------------------------
+   P1 ends the turn.  P0 draws: 1 ATK.
+
+========== Turn 9 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 19    |    P1 Random bot = 12
+   Board:         P0: [4 ATK, 4 ATK, 4 ATK]    |    P1: (empty)
+   P0 hand:       [1 ATK, 1 ATK, 1 ATK, 3 ATK, 1 ATK]
+   ----------------------------------------
+   P0's 4-ATK monster attacks DIRECTLY for 4!   P1 LP: 12 -> 8
+   P0's 4-ATK monster attacks DIRECTLY for 4!   P1 LP: 8 -> 4
+   P0's 4-ATK monster attacks DIRECTLY for 4!   P1 LP: 4 -> 0
+
+############################################################
+#  RESULT: Player 0 (AI(thinks 80)) WINS!
+#  Final Life Points:  P0 = 19   |   P1 = 0
+############################################################

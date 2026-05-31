@@ -1,0 +1,179 @@
+############################################################
+#  DUEL TRANSCRIPT
+#  Player 0 = AI(thinks 80)
+#  Player 1 = AI(thinks 80)
+#  (A 'card' here is a monster with an Attack value 1-4.
+#   Both start at 20 Life Points. First player can't attack turn 1.)
+############################################################
+
+Player 0 (AI(thinks 80)):
+   Deck draw order (ATK):  3 3 1 2 1 2 4 3 1 3 1 4 4 4 3 4 2 1 3 2 3 4 2 4 1
+   Opening hand:           [1 ATK, 1 ATK, 4 ATK, 2 ATK, 3 ATK]
+
+Player 1 (AI(thinks 80)):
+   Deck draw order (ATK):  3 4 4 4 3 4 4 1 1 2 3 4 2 4 2 4 3 3 1 3 4 4 4 4 1
+   Opening hand:           [2 ATK, 4 ATK, 1 ATK, 3 ATK, 2 ATK]
+
+========== Turn 1 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 20
+   Board:         P0: (empty)    |    P1: (empty)
+   P0 hand:       [1 ATK, 1 ATK, 4 ATK, 2 ATK, 3 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 4-ATK monster.   P0 board: [4 ATK]
+   P0 ends the turn.
+
+========== Turn 2 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 20
+   Board:         P0: [4 ATK]    |    P1: (empty)
+   P1 hand:       [2 ATK, 4 ATK, 1 ATK, 3 ATK, 2 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 4-ATK monster.   P1 board: [4 ATK]
+   P1 ends the turn.  P0 draws: 3 ATK.
+
+========== Turn 3 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 20
+   Board:         P0: [4 ATK]    |    P1: [4 ATK]
+   P0 hand:       [1 ATK, 1 ATK, 2 ATK, 3 ATK, 3 ATK]
+   ----------------------------------------
+   P0's 4-ATK attacks the 4-ATK monster -> equal ATK, BOTH destroyed.
+   P0 Normal Summons a 3-ATK monster.   P0 board: [3 ATK]
+   P0's 3-ATK monster attacks DIRECTLY for 3!   P1 LP: 20 -> 17
+   P0 ends the turn.  P1 draws: 3 ATK.
+
+========== Turn 4 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 17
+   Board:         P0: [3 ATK]    |    P1: (empty)
+   P1 hand:       [2 ATK, 1 ATK, 3 ATK, 2 ATK, 3 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 1-ATK monster.   P1 board: [1 ATK]
+   P1 ends the turn.  P0 draws: 3 ATK.
+
+========== Turn 5 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 17
+   Board:         P0: [3 ATK]    |    P1: [1 ATK]
+   P0 hand:       [1 ATK, 1 ATK, 2 ATK, 3 ATK, 3 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 1-ATK monster.   P0 board: [3 ATK, 1 ATK]
+   P0's 1-ATK attacks the 1-ATK monster -> equal ATK, BOTH destroyed.
+   P0's 3-ATK monster attacks DIRECTLY for 3!   P1 LP: 17 -> 14
+   P0 ends the turn.  P1 draws: 4 ATK.
+
+========== Turn 6 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 14
+   Board:         P0: [3 ATK]    |    P1: (empty)
+   P1 hand:       [2 ATK, 3 ATK, 2 ATK, 3 ATK, 4 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 2-ATK monster.   P1 board: [2 ATK]
+   P1 ends the turn.  P0 draws: 1 ATK.
+
+========== Turn 7 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 14
+   Board:         P0: [3 ATK]    |    P1: [2 ATK]
+   P0 hand:       [1 ATK, 2 ATK, 3 ATK, 3 ATK, 1 ATK]
+   ----------------------------------------
+   P0 ends the turn.  P1 draws: 4 ATK.
+
+========== Turn 8 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 14
+   Board:         P0: [3 ATK]    |    P1: [2 ATK]
+   P1 hand:       [3 ATK, 2 ATK, 3 ATK, 4 ATK, 4 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 3-ATK monster.   P1 board: [2 ATK, 3 ATK]
+   P1's 2-ATK crashes into the bigger 3-ATK monster -> attacker destroyed, P1 takes 1.   P1 LP: 14 -> 13
+   P1's 3-ATK attacks the 3-ATK monster -> equal ATK, BOTH destroyed.
+   P1 ends the turn.
+
+========== Turn 9 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 13
+   Board:         P0: (empty)    |    P1: (empty)
+   P0 hand:       [1 ATK, 2 ATK, 3 ATK, 3 ATK, 1 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 3-ATK monster.   P0 board: [3 ATK]
+   P0's 3-ATK monster attacks DIRECTLY for 3!   P1 LP: 13 -> 10
+   P0 ends the turn.  P1 draws: 4 ATK.
+
+========== Turn 10 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 10
+   Board:         P0: [3 ATK]    |    P1: (empty)
+   P1 hand:       [2 ATK, 3 ATK, 4 ATK, 4 ATK, 4 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 3-ATK monster.   P1 board: [3 ATK]
+   P1's 3-ATK attacks the 3-ATK monster -> equal ATK, BOTH destroyed.
+   P1 ends the turn.  P0 draws: 2 ATK.
+
+========== Turn 11 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 10
+   Board:         P0: (empty)    |    P1: (empty)
+   P0 hand:       [1 ATK, 2 ATK, 3 ATK, 1 ATK, 2 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 1-ATK monster.   P0 board: [1 ATK]
+   P0's 1-ATK monster attacks DIRECTLY for 1!   P1 LP: 10 -> 9
+   P0 ends the turn.  P1 draws: 3 ATK.
+
+========== Turn 12 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 20    |    P1 AI(thinks 80) = 9
+   Board:         P0: [1 ATK]    |    P1: (empty)
+   P1 hand:       [2 ATK, 4 ATK, 4 ATK, 4 ATK, 3 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 2-ATK monster.   P1 board: [2 ATK]
+   P1's 2-ATK attacks the 1-ATK monster -> defender destroyed, P0 takes 1.   P0 LP: 20 -> 19
+   P1 ends the turn.  P0 draws: 1 ATK.
+
+========== Turn 13 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 19    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: [2 ATK]
+   P0 hand:       [2 ATK, 3 ATK, 1 ATK, 2 ATK, 1 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 2-ATK monster.   P0 board: [2 ATK]
+   P0's 2-ATK attacks the 2-ATK monster -> equal ATK, BOTH destroyed.
+   P0 ends the turn.  P1 draws: 4 ATK.
+
+========== Turn 14 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 19    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: (empty)
+   P1 hand:       [4 ATK, 4 ATK, 4 ATK, 3 ATK, 4 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 4-ATK monster.   P1 board: [4 ATK]
+   P1's 4-ATK monster attacks DIRECTLY for 4!   P0 LP: 19 -> 15
+   P1 ends the turn.  P0 draws: 2 ATK.
+
+========== Turn 15 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 15    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: [4 ATK]
+   P0 hand:       [3 ATK, 1 ATK, 2 ATK, 1 ATK, 2 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 3-ATK monster.   P0 board: [3 ATK]
+   P0's 3-ATK crashes into the bigger 4-ATK monster -> attacker destroyed, P0 takes 1.   P0 LP: 15 -> 14
+   P0 ends the turn.  P1 draws: 4 ATK.
+
+========== Turn 16 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 14    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: [4 ATK]
+   P1 hand:       [4 ATK, 4 ATK, 3 ATK, 4 ATK, 4 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 4-ATK monster.   P1 board: [4 ATK, 4 ATK]
+   P1's 4-ATK monster attacks DIRECTLY for 4!   P0 LP: 14 -> 10
+   P1's 4-ATK monster attacks DIRECTLY for 4!   P0 LP: 10 -> 6
+   P1 ends the turn.  P0 draws: 4 ATK.
+
+========== Turn 17 — AI(thinks 80) (Player 0) ==========
+   Life Points:   P0 AI(thinks 80) = 6    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: [4 ATK, 4 ATK]
+   P0 hand:       [1 ATK, 2 ATK, 1 ATK, 2 ATK, 4 ATK]
+   ----------------------------------------
+   P0 Normal Summons a 1-ATK monster.   P0 board: [1 ATK]
+   P0's 1-ATK crashes into the bigger 4-ATK monster -> attacker destroyed, P0 takes 3.   P0 LP: 6 -> 3
+   P0 ends the turn.  P1 draws: 1 ATK.
+
+========== Turn 18 — AI(thinks 80) (Player 1) ==========
+   Life Points:   P0 AI(thinks 80) = 3    |    P1 AI(thinks 80) = 9
+   Board:         P0: (empty)    |    P1: [4 ATK, 4 ATK]
+   P1 hand:       [4 ATK, 3 ATK, 4 ATK, 4 ATK, 1 ATK]
+   ----------------------------------------
+   P1 Normal Summons a 4-ATK monster.   P1 board: [4 ATK, 4 ATK, 4 ATK]
+   P1's 4-ATK monster attacks DIRECTLY for 4!   P0 LP: 3 -> -1
+
+############################################################
+#  RESULT: Player 1 (AI(thinks 80)) WINS!
+#  Final Life Points:  P0 = -1   |   P1 = 9
+############################################################
